@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+/* Define all custom fonts in Tailwind v4 using @theme */
+@theme {
+  --font-big-shoulders: "Big Shoulders", sans-serif;
+  --font-dancing: "Dancing Script", cursive;
+  --font-dela-gothic: "Dela Gothic One", sans-serif;
+  --font-monoton: "Monoton", cursive;
+  --font-montserrat: "Montserrat", sans-serif;
+  --font-outfit: "Outfit", sans-serif;
+  --font-poppins: "Poppins", sans-serif;
+  --font-prompt: "Prompt", sans-serif;
+  --font-roboto: "Roboto", sans-serif;
+  --font-rubik: "Rubik", sans-serif;
+  --font-work-sans: "Work Sans", sans-serif;
+}
+
+/* Apply global defaults */
+body {
+  @apply font-poppins bg-white text-gray-900;
+}
